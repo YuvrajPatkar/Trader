@@ -18,7 +18,6 @@ struct ContentView: View {
                     .tabItem {
                         Label("Home", systemImage: "macpro.gen2")
                     }
-                
                 Exchange_Screen()
                     .tabItem {
                         Label("Exchange", systemImage: "ferry.fill")

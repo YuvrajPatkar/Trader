@@ -13,6 +13,8 @@ struct Stock_View: View {
     @State private var errorMessage: String?
     @State private var showingExpandedStockSheetView = false
     
+  
+    
     var stockSymbol: String
     
     var body: some View {
